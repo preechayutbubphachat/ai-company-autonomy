@@ -1,0 +1,66 @@
+{
+  "schema": "AI_COMPANY_CLEAN_SOURCE_V1_CONTENT_MANIFEST",
+  "project_id": "AI-COMPANY-AUTONOMY",
+  "date": "2026-10-09",
+  "built_by": "CHATGPT_OFFHOST_MAKER_ONLY",
+  "provenance_class": "CLEAN_FROM_SPEC_NONPRODUCTION_CANDIDATE",
+  "source_basis": "User-provided Owner canonical north star and RIN CS0-CS9 report, without copying Donkkub scripts, old runtime or prior v0.5 code",
+  "lf3_accepted": false,
+  "lf4_accepted": false,
+  "real_dispatch_authorized": false,
+  "themis_independent_verification": "NOT_RUN",
+  "members": {
+    "company_v1/__init__.py": {
+      "bytes": 97,
+      "sha256": "5d0cdca0bf75e49c9a4a788c572535fe764cededda5928f17117f8bab77fec45"
+    },
+    "company_v1/agent_adapters.py": {
+      "bytes": 613,
+      "sha256": "6b576afe97eb261f0a4761638c2beb8e0c2ef232df152ef0a1b66bdd5eb1ee52"
+    },
+    "company_v1/company_core.py": {
+      "bytes": 1138,
+      "sha256": "f05e8aec6a50fe1a07ee4964e865dd334f8242d9d1be1ed8c53d7925610d90cd"
+    },
+    "company_v1/durable_ledger.py": {
+      "bytes": 4514,
+      "sha256": "905b31ac34e2f85c2b81a1f3db54aeff52e476429225041a2f544c769fc84a9b"
+    },
+    "company_v1/models.py": {
+      "bytes": 1519,
+      "sha256": "d56f9bc781066f0cc114a87b59853f53e42e1de193d584490560f9a5b24436a8"
+    },
+    "company_v1/project_isolation.py": {
+      "bytes": 340,
+      "sha256": "cf93eee7596f1816d493c5323bfa32c96b977690d7570bfc4e9fe830aaaed3d9"
+    },
+    "company_v1/security.py": {
+      "bytes": 695,
+      "sha256": "f511958733351a48a6188be31f8bb5cdc1c65d47afc656ee9ffcccce1eea5beb"
+    },
+    "company_v1/supervisor_mechanical.py": {
+      "bytes": 679,
+      "sha256": "3ead2d802d742cdf33d309079d1f889f55ddc9ee3742928e0930c9b99932efdf"
+    },
+    "company_v1/verifier.py": {
+      "bytes": 339,
+      "sha256": "ab2016e0ad25495f7d666c8389891dedabe0cafba363c25145ac7d9bbceadfdf"
+    },
+    "docs/README.md": {
+      "bytes": 2128,
+      "sha256": "f7a981719b617066010c4577ec699584bbc26911bbffe4ad7e344ea0c69246bf"
+    },
+    "docs/SECURITY_BOUNDARY.md": {
+      "bytes": 615,
+      "sha256": "ceea368dfe634b3376359eceba34d7160fa588861858e581bac1410cb56532a0"
+    },
+    "pyproject.toml": {
+      "bytes": 276,
+      "sha256": "5d7b14b39f77626e0a95cc23da237d6413c17891a49b54b2fee82ea64a43c75e"
+    },
+    "tests/test_vertical_slice.py": {
+      "bytes": 9031,
+      "sha256": "891b89c639b0bab1ae6433eadfbc547e62bcacb37a194711c7e10016684ff954"
+    }
+  }
+}
