@@ -1,0 +1,8 @@
+[project]
+name = "ai-company-clean-from-spec-v1"
+version = "0.1.0"
+requires-python = ">=3.11"
+description = "Offhost non-production clean-from-spec AI company vertical slice"
+license = {text = "Proprietary - Owner review required"}
+[tool.setuptools]
+packages = ["company_v1"]
