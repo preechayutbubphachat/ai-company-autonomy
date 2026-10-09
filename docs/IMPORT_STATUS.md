@@ -1,1 +1,1 @@
-Nonproduction candidate import is in progress. LF3 BLOCKED, LF4 UNVERIFIED. No live execution authorized.
+NONPRODUCTION SOURCE CANDIDATE V1. Maker-only tests; LF3 BLOCKED, LF4 UNVERIFIED, LF5 NOT PROVEN, A2 PARKED. No live execution, CI, merge or deployment authorized.
