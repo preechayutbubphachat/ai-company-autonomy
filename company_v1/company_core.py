@@ -21,9 +21,11 @@ def choose(tasks: Iterable[Task], now: int, verifier: AuthorityVerifier | None =
             continue
         if now >= t.expires_at:
             continue
-        if verifier.verify(t, now):
-            eligible.append(t)
+        eligible.append(t)
     if not eligible:
         return Selection(None, "NO_VERIFIED_ELIGIBLE_TASK")
     eligible.sort(key=lambda t: (-t.priority, t.project_id, t.task_id))
-    return Selection(eligible[0], "SYNTHETIC_SELECTION_ONLY")
+    for candidate in eligible:
+        if verifier.verify(candidate, now):
+            return Selection(candidate, "SYNTHETIC_SELECTION_ONLY")
+    return Selection(None, "NO_VERIFIED_ELIGIBLE_TASK")
